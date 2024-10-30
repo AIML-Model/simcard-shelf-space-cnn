@@ -19,7 +19,7 @@ Venkatesh Reddy
 Kavitha Jindam
 ```
 
-#Project Descriptiion
+# Project Descriptiion
 
 ## Software Resources:
  - Image Analytics Software:
@@ -40,3 +40,12 @@ Kavitha Jindam
  - Built with Flask (backend) and HTML (frontend) for real-time shelf space monitoring.
 
 ```
+
+## Step 1: Data preprocessing:
+
+```
+ - Image filter based on quality of image.
+ - Remove duplicate image.
+```
+
+ 
