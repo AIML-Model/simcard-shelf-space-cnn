@@ -1,0 +1,93 @@
+<html>
+<html lang="en">
+<body>
+<h3>Iteam wise space occupied report</h3>
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+
+/* Style the header */
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: top;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+    table {
+            width: 100%; /* Full width for the table */
+            border-collapse: collapse; /* Collapse borders */
+        }
+
+        th, td {
+            border: 1px solid #ddd; /* Table cell border */
+            padding: 8px; /* Padding for table cells */
+            text-align: left; /* Align text to the left */
+        }
+
+        th {
+            background-color: #f2f2f2; /* Header background color */
+        }
+</style>
+    <body>
+    <form action="/iteam-space" method="post">
+        <center><input type="submit" value="show"></center>
+    </form>
+    {% if Total_image_area %}
+    <h3>Total Image Area: {{ Total_image_area }}</h3>
+    {% endif %}
+    <table border="1", align="left">
+        <tr>
+           <th>Name</th>
+            <th>Area(Pixcel)</th>
+        </tr>
+    <tbody>
+      {% if result_dict %}
+      {% for key, value in result_dict.items() %}
+        <tr>
+            <td>{{ key }}</td>
+            <td>{{ value }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+    </tbody>
+    </table>
+    
+</body>
+</html>

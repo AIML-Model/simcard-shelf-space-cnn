@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple IFrames with Different Sizes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+        }
+        .iframe-container {
+            display: flex; /* Use flexbox for layout */
+            flex-wrap: wrap; /* Allow wrapping of iframes */
+            gap: 10px; /* Space between iframes */
+        }
+        iframe {
+            border: 1px solid #ccc; /* Add a border */
+        }
+
+    </style>
+</head>
+<body style="background-color:white;">
+<h1><center>Retail Store Shelf Image Analysis & Prediction Dash Board</center></h1>
+<div class="iframe-container">
+<iframe src="/upload" name="" width="300" height="300" style="border:1px solid"></iframe>
+<iframe src="/predict" name="" width="400" height="300" style="border:1px solid"></iframe>
+<iframe src="/iteam-count" name="" width="360" height="300" style="border:1px solid"></iframe>
+<iframe src="/iteam-space" name="" width="360" height="300" style="border:1px solid"></iframe>
+<iframe src="/iteam-wise-count-graph" name="" width="500" height="500" style="border:1px solid"></iframe>
+<iframe src="/iteam-space-graph" name="" width="500" height="500" style="border:1px solid"></iframe>
+<iframe src="/location" name="" width="432" height="500" style="border:1px solid"></iframe>
+</div>
+</body>
+</html>

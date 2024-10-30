@@ -1,0 +1,24 @@
+names:
+- Axis
+- Gratis Nelpon
+- HITZ
+- Indosat
+- Indosat-3
+- PUAS
+- SimpaTI
+- Telkomsel
+- ULANG
+- V-GEN
+- byu
+- im3
+- smartfren
+nc: 13
+roboflow:
+  license: CC BY 4.0
+  project: simcard-shelf-space-final
+  url: https://universe.roboflow.com/ganeshml/simcard-shelf-space-final/dataset/7
+  version: 7
+  workspace: ganeshml
+test: ../test/images
+train: ../train/images
+val: ../valid/images

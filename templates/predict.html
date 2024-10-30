@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<body>
+    <h3>Shelf segment detection and Prediction</h3>
+  <form action="/predict" method="post">
+  <center><input type="submit" value="Predict"></center>
+  <div id="image-container">
+    <img src="{{ url_for('static', filename='images/output_image_with_detections.jpg') }}" alt="Example Image" width="440" height="450">    
+    </div>   
+</body>
+</html>
+

@@ -1,0 +1,15 @@
+artifact_uri: /Users/ganesh/Desktop/Git-kyndryl/CAPSTONE-PROJECT/capstone-sim-shelf-space/simcard-shelf-space-2/runs/mlflow/662197954743695805/c837b62690cb4f5991b8fa3cca4896c3/artifacts
+end_time: 1729086545388
+entry_point_name: ''
+experiment_id: '662197954743695805'
+lifecycle_stage: active
+run_id: c837b62690cb4f5991b8fa3cca4896c3
+run_name: train3
+run_uuid: c837b62690cb4f5991b8fa3cca4896c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729080118650
+status: 3
+tags: []
+user_id: ganesh
