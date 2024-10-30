@@ -39,5 +39,4 @@ Kavitha Jindam
 ## Custom Web Application:
  - Built with Flask (backend) and HTML (frontend) for real-time shelf space monitoring.
 
-![image](https://github.com/user-attachments/assets/595bc569-5030-4d6e-aca4-c2caa01c7fa4)
 ```
