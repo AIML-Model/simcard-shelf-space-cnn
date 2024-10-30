@@ -19,7 +19,7 @@ Venkatesh Reddy
 Kavitha Jindam
 ```
 
-# Project Descriptiion
+# Project Description
 
 ## Software Resources:
  - Image Analytics Software:
