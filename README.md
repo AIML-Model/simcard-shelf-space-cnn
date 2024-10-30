@@ -99,4 +99,15 @@ with open(f"{dataset.location}/data.yaml", 'w') as f:
 - Execure the application
 ./ shelf-space-cnn.py
  
-<img width="1171" alt="image" src="https://github.com/user-attachments/assets/7d3c7514-bf17-44d4-929e-cfe9e319843e">
+
+<img width="1164" alt="image" src="https://github.com/user-attachments/assets/d3e97f1d-e3e6-410a-9df8-52e4679e3b6e">
+
+
+<img width="1490" alt="image" src="https://github.com/user-attachments/assets/402814cf-e30f-4c30-a388-de9844211780">
+
+
+<img width="1496" alt="image" src="https://github.com/user-attachments/assets/2ddf2070-68d3-42e7-a490-656a0dfccedd">
+
+
+<img width="1477" alt="image" src="https://github.com/user-attachments/assets/84339589-3890-411b-888c-50c54ab8fe9c">
+
